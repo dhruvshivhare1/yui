@@ -34,7 +34,7 @@ const collections = [
 
 export default function Collections() {
   return (
-    <section className="py-20 bg-gradient-to-b from-purple-50 to-white">
+    <section className="py-20 bg-gradient-to-b from-rose-50 to-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <motion.div
           className="text-center mb-16"
@@ -79,7 +79,7 @@ export default function Collections() {
                   
                   <Link href={collection.href}>
                     <Button 
-                      className="bg-white text-gray-900 hover:bg-purple-100 rounded-full px-6 py-2 transition-all duration-300 transform group-hover:scale-105"
+                      className="bg-white text-gray-900 hover:bg-rose-100 rounded-full px-6 py-2 transition-all duration-300 transform group-hover:scale-105"
                     >
                       Explore Collection
                     </Button>

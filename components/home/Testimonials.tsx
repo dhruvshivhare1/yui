@@ -36,7 +36,7 @@ const testimonials = [
 
 export default function Testimonials() {
   return (
-    <section className="py-20 bg-purple-50">
+    <section className="py-20 bg-rose-50">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <motion.div
           className="text-center mb-16"
@@ -90,6 +90,7 @@ export default function Testimonials() {
               </blockquote>
 
               <div className="text-sm text-purple-600 font-medium">
+              <div className="text-sm text-rose-500 font-medium">
                 Purchased: {testimonial.product}
               </div>
             </motion.div>

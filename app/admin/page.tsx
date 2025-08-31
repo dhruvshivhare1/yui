@@ -148,6 +148,7 @@ export default function AdminDashboard() {
                             <p className="text-sm text-green-600">{stat.change}</p>
                           </div>
                           <div className="p-3 bg-purple-100 rounded-full text-purple-600">
+                          <div className="p-3 bg-rose-100 rounded-full text-rose-500">
                             {stat.icon}
                           </div>
                         </div>

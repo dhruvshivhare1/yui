@@ -60,7 +60,7 @@ export default function ShirtsCollection() {
       <Header />
       
       {/* Hero Section */}
-      <section className="pt-24 pb-16 bg-gradient-to-r from-purple-600 to-pink-600">
+      <section className="pt-24 pb-16 bg-gradient-to-r from-rose-400 to-rose-600">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <motion.div
             className="text-center"
@@ -157,7 +157,7 @@ export default function ShirtsCollection() {
                     <span className="text-sm text-gray-500 ml-2">({shirt.reviews})</span>
                   </div>
 
-                  <h3 className="font-semibold text-gray-900 mb-2 group-hover:text-purple-600 transition-colors">
+                  <h3 className="font-semibold text-gray-900 mb-2 group-hover:text-rose-500 transition-colors">
                     {shirt.name}
                   </h3>
 
@@ -177,7 +177,7 @@ export default function ShirtsCollection() {
                     ))}
                   </div>
 
-                  <Button className="w-full bg-purple-600 hover:bg-purple-700 text-white rounded-full py-2 transition-all duration-300 transform group-hover:scale-105">
+                  <Button className="w-full bg-rose-500 hover:bg-rose-600 text-white rounded-full py-2 transition-all duration-300 transform group-hover:scale-105">
                     Add to Cart
                   </Button>
                 </div>

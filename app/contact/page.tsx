@@ -41,7 +41,7 @@ export default function Contact() {
       <Header />
       
       {/* Hero Section */}
-      <section className="pt-24 pb-16 bg-gradient-to-r from-purple-600 to-pink-600">
+      <section className="pt-24 pb-16 bg-gradient-to-r from-rose-400 to-rose-600">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <motion.div
             className="text-center"
@@ -116,7 +116,7 @@ export default function Contact() {
 
                     <Button 
                       type="submit" 
-                      className="w-full bg-purple-600 hover:bg-purple-700 text-white py-3 rounded-full transition-all duration-300"
+                      className="w-full bg-rose-500 hover:bg-rose-600 text-white py-3 rounded-full transition-all duration-300"
                     >
                       Send Message
                     </Button>
@@ -152,6 +152,7 @@ export default function Contact() {
                       viewport={{ once: true }}
                     >
                       <div className="flex-shrink-0 p-3 bg-purple-100 rounded-full text-purple-600">
+                      <div className="flex-shrink-0 p-3 bg-rose-100 rounded-full text-rose-500">
                         {info.icon}
                       </div>
                       <div>
@@ -159,7 +160,7 @@ export default function Contact() {
                         {info.link ? (
                           <a 
                             href={info.link}
-                            className="text-gray-600 hover:text-purple-600 transition-colors"
+                            className="text-gray-600 hover:text-rose-500 transition-colors"
                           >
                             {info.content}
                           </a>
@@ -171,7 +172,7 @@ export default function Contact() {
                   ))}
                 </div>
 
-                <Card className="bg-purple-50 border-purple-200">
+                <Card className="bg-rose-50 border-rose-200">
                   <CardContent className="p-6">
                     <h3 className="font-semibold text-gray-900 mb-2">Customer Support</h3>
                     <p className="text-gray-600 mb-4">
@@ -179,6 +180,7 @@ export default function Contact() {
                       products for your mindfulness journey.
                     </p>
                     <Button variant="outline" className="border-purple-600 text-purple-600 hover:bg-purple-600 hover:text-white">
+                    <Button variant="outline" className="border-rose-500 text-rose-500 hover:bg-rose-500 hover:text-white">
                       Start Live Chat
                     </Button>
                   </CardContent>

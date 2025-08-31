@@ -46,7 +46,7 @@ export default function Header() {
               <Link
                 key={item.name}
                 href={item.href}
-                className={`text-sm font-medium transition-colors hover:text-purple-600 ${
+                className={`text-sm font-medium transition-colors hover:text-rose-500 ${
                   isScrolled ? 'text-gray-900' : 'text-white'
                 }`}
               >
@@ -63,7 +63,7 @@ export default function Header() {
                 whileHover={{ scale: 1.05 }}
                 transition={{ type: "spring", stiffness: 400, damping: 10 }}
               >
-                <span className={`${isScrolled ? 'text-purple-600' : 'text-white'} transition-colors`}>
+                <span className={`${isScrolled ? 'text-rose-500' : 'text-white'} transition-colors`}>
                   Ensaura
                 </span>
               </motion.div>
@@ -76,7 +76,7 @@ export default function Header() {
               <Link
                 key={item.name}
                 href={item.href}
-                className={`text-sm font-medium transition-colors hover:text-purple-600 ${
+                className={`text-sm font-medium transition-colors hover:text-rose-500 ${
                   isScrolled ? 'text-gray-900' : 'text-white'
                 }`}
               >
@@ -87,14 +87,14 @@ export default function Header() {
               <Button
                 variant="ghost"
                 size="sm"
-                className={`${isScrolled ? 'text-gray-900 hover:text-purple-600' : 'text-white hover:text-purple-200'}`}
+                className={`${isScrolled ? 'text-gray-900 hover:text-rose-500' : 'text-white hover:text-rose-200'}`}
               >
                 <User className="h-5 w-5" />
               </Button>
               <Button
                 variant="ghost"
                 size="sm"
-                className={`${isScrolled ? 'text-gray-900 hover:text-purple-600' : 'text-white hover:text-purple-200'}`}
+                className={`${isScrolled ? 'text-gray-900 hover:text-rose-500' : 'text-white hover:text-rose-200'}`}
               >
                 <ShoppingBag className="h-5 w-5" />
               </Button>
@@ -127,7 +127,7 @@ export default function Header() {
                 <Link
                   key={item.name}
                   href={item.href}
-                  className="block text-gray-900 font-medium hover:text-purple-600 transition-colors"
+                  className="block text-gray-900 font-medium hover:text-rose-500 transition-colors"
                   onClick={() => setIsMobileMenuOpen(false)}
                 >
                   {item.name}
