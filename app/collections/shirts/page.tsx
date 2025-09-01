@@ -7,6 +7,7 @@ import { Star, Filter, Grid, List } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from '@/components/ui/select';
 import Header from '@/components/layout/Header';
+import Footer from '@/components/layout/Footer';
 
 const shirts = [
   {
@@ -60,7 +61,7 @@ export default function ShirtsCollection() {
       <Header />
       
       {/* Hero Section */}
-      <section className="pt-24 pb-16 bg-gradient-to-r from-rose-400 to-rose-600">
+      <section className="pt-24 pb-16 bg-gradient-to-r from-pink-500 to-pink-400">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <motion.div
             className="text-center"
@@ -68,7 +69,7 @@ export default function ShirtsCollection() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8 }}
           >
-            <h1 className="text-5xl md:text-6xl font-bold text-white mb-6">
+            <h1 className="text-5xl md:text-6xl font-display font-bold text-white mb-6">
               Mindful Apparel
             </h1>
             <p className="text-xl text-white/90 max-w-2xl mx-auto">
@@ -157,7 +158,7 @@ export default function ShirtsCollection() {
                     <span className="text-sm text-gray-500 ml-2">({shirt.reviews})</span>
                   </div>
 
-                  <h3 className="font-semibold text-gray-900 mb-2 group-hover:text-rose-500 transition-colors">
+                  <h3 className="font-semibold text-gray-900 mb-2 group-hover:text-purple-600 transition-colors">
                     {shirt.name}
                   </h3>
 
@@ -177,7 +178,7 @@ export default function ShirtsCollection() {
                     ))}
                   </div>
 
-                  <Button className="w-full bg-rose-500 hover:bg-rose-600 text-white rounded-full py-2 transition-all duration-300 transform group-hover:scale-105">
+                  <Button className="w-full bg-pink-500 hover:bg-pink-600 text-white rounded-full py-2 transition-all duration-300 transform group-hover:scale-105">
                     Add to Cart
                   </Button>
                 </div>
@@ -186,6 +187,8 @@ export default function ShirtsCollection() {
           </div>
         </div>
       </section>
+      
+      <Footer />
     </div>
   );
 }

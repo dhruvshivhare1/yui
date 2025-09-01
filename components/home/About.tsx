@@ -58,11 +58,11 @@ export default function About() {
                   transition={{ duration: 0.6, delay: index * 0.1 }}
                   viewport={{ once: true }}
                 >
-                  <div className="flex-shrink-0 p-3 bg-rose-100 rounded-full text-rose-500">
+                  <div className="flex-shrink-0 p-3 bg-purple-100 rounded-full text-purple-600">
                     {value.icon}
                   </div>
                   <div>
-                    <h3 className="font-semibold text-gray-900 mb-1">{value.title}</h3>
+                    <h3 className="font-display font-semibold text-gray-900 mb-1">{value.title}</h3>
                     <p className="text-gray-600">{value.description}</p>
                   </div>
                 </motion.div>
@@ -85,8 +85,8 @@ export default function About() {
                 className="object-cover"
               />
             </div>
-            <div className="absolute -bottom-6 -left-6 w-32 h-32 bg-rose-200 rounded-full opacity-50" />
-            <div className="absolute -top-6 -right-6 w-24 h-24 bg-rose-300 rounded-full opacity-40" />
+            <div className="absolute -bottom-6 -left-6 w-32 h-32 bg-purple-200 rounded-full opacity-50" />
+            <div className="absolute -top-6 -right-6 w-24 h-24 bg-pink-200 rounded-full opacity-40" />
           </motion.div>
         </div>
       </div>
